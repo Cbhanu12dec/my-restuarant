@@ -284,7 +284,7 @@ const EmployeeDashboard = () => {
                     </Text>
                     <Text fontSize={"md"} fontWeight={"semibold"}>
                       {selectedOrder?.address?.addressLine1},{" "}
-                      {selectedOrder?.address.city}
+                      {selectedOrder?.address?.city}
                     </Text>
                   </VStack>
                   <VStack minW={"35%"} alignItems={"start"}>
