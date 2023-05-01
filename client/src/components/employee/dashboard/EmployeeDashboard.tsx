@@ -303,7 +303,7 @@ const EmployeeDashboard = () => {
                         <Flex justifyContent={"space-between"} width={"100%"}>
                           <Flex alignItems={"center"}>
                             <Image
-                              src={item.url}
+                              src={item?.url}
                               width={"12"}
                               h={"12"}
                               borderRadius={"xl"}
@@ -313,16 +313,16 @@ const EmployeeDashboard = () => {
                               fontWeight={"semibold"}
                               ml="4"
                             >
-                              {item.productName}
+                              {item?.productName}
                             </Text>
                           </Flex>
 
                           <HStack gap={20}>
                             <Text fontSize={"md"}>
-                              Quantity: {item.quantity}
+                              Quantity: {item?.quantity}
                             </Text>
                             <Text fontSize={"lg"} fontWeight={"semibold"}>
-                              Price: ${item.price}
+                              Price: ${item?.price}
                             </Text>
                           </HStack>
                         </Flex>
